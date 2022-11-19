@@ -7,10 +7,6 @@ import { Editor } from "./components/editor.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <BrowserRouter>
-      <Routes>
-        <Route path={"/"} element={<Editor />} />
-      </Routes>
-    </BrowserRouter>
+    <Editor />
   </React.StrictMode>
 );
