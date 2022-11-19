@@ -1,0 +1,26 @@
+
+.modal {
+  &-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &-body {
+    background-color: #282C34;
+    color: white;
+    padding: 1rem;
+    border-radius: 10px;
+    max-width: 90%;
+    max-height: 90%;
+    min-width: 400px;
+    overflow: auto;
+  }
+}

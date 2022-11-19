@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+
+button {
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+#chart {
+  background-color: white;
+  border-radius: 4px;
+}
+
+.dropzone {
+  border: 4px dashed rgba(255, 255, 255, 0.2);
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &:hover {
+    cursor: pointer;
+    border-color: rgba(255, 255, 255, 0.4);
+  }
+}
+
+@import 'editor';
+@import 'table';
+@import 'modal';
+@import 'field';

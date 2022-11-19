@@ -1,0 +1,21 @@
+
+.field {
+  margin-bottom: 1rem;
+  width: 100%;
+
+  &-label {
+    margin-bottom: 0.5rem;
+  }
+
+  input, select {
+    background-color: white;
+    padding: 0.5rem 1rem;
+    border: 1px solid lightgray;;
+    width: 100%;
+    outline: none;
+
+    &:focus, &:active {
+      border-color: darkgray;
+    }
+  }
+}
